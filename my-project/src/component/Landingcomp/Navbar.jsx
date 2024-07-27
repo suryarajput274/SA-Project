@@ -1,4 +1,3 @@
-import React from 'react'
 import { CiSearch } from "react-icons/ci";
 import logoim from "../../assets/landing_photo/svgexport-58 1.png"
 import logo from "../../assets/landing_photo/WasteWise.png"
