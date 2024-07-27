@@ -4,7 +4,7 @@ import frame2 from "../../assets/landing_photo/Designer (3).jpeg"
 import frame3 from "../../assets/landing_photo/Designer (4).jpeg"
 
 const Hero = () => {
-  const images = [frame1, frame2, frame3]; // Array of image sources, you can replace with different images
+  const images = [frame1, frame2, frame3];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -12,7 +12,7 @@ const Hero = () => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 10000); // 10 seconds
 
-    return () => clearInterval(interval); // Cleanup interval on component unmount
+    return () => clearInterval(interval); 
   }, [images.length]);
 
   const goToSlide = (index) => {

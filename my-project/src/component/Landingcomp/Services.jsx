@@ -48,6 +48,9 @@ const Services = () => {
             } )
         }
       </div>
+      <div className="flex justify-end p-8 px-12 text-[20px] font-semibold" >
+        More →
+      </div>
     </div>
   );
 };
